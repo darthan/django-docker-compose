@@ -10,3 +10,7 @@ class HomeView(TemplateView):
 
 class AristidesView(TemplateView):
     template_name = "home_2.html"
+
+
+class Paso3View(TemplateView):
+    template_name = "paso3.html"
