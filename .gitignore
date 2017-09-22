@@ -102,3 +102,6 @@ ENV/
 
 # Postgres
 postgres-data/
+
+# Vagrant
+.vagrant/

@@ -10,3 +10,11 @@ class HomeView(TemplateView):
 
 class Ejercicio1View(TemplateView):
     template_name = "ejercicio1.html"
+
+
+class Ejercicio2View(TemplateView):
+    template_name = "ejercicio2.html"
+
+
+class Ejercicio3View(TemplateView):
+    template_name = "ejercicio3.html"
