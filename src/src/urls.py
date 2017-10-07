@@ -20,12 +20,16 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from apps.home.views import HomeView, Ejercicio1View, Ejercicio2View, Ejercicio3View
+from apps.home.views import (HomeView, Ejercicio1View,
+                             Ejercicio2View, Ejercicio3View, Ejercicio4View,
+                             Ejercicio5View)
 
 urlpatterns = [
     url(r'^$', HomeView.as_view()),
     url(r'^ejercicio/1$', Ejercicio1View.as_view()),
     url(r'^ejercicio/2$', Ejercicio2View.as_view()),
     url(r'^ejercicio/3$', Ejercicio3View.as_view()),
+    url(r'^ejercicio/4$', Ejercicio4View.as_view()),
+    url(r'^ejercicio/5$', Ejercicio5View.as_view()),
     url(r'^admin/', admin.site.urls),
 ]

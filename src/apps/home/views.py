@@ -18,3 +18,11 @@ class Ejercicio2View(TemplateView):
 
 class Ejercicio3View(TemplateView):
     template_name = "ejercicio3.html"
+
+
+class Ejercicio4View(TemplateView):
+    template_name = "ejercicio4.html"
+
+
+class Ejercicio5View(TemplateView):
+    template_name = "ejercicio5.html"
